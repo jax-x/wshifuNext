@@ -1,14 +1,16 @@
 import { Layout, Menu } from 'antd';
 import Link from 'next/link'
 const { Header } = Layout;
-
 const MyHeader = () => {
     return (
         <Header>
-            <div className="logo" />
-            <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+            <Menu 
+                theme="light" 
+                mode="horizontal " 
+                defaultSelectedKeys={['1']}
+            >
                 <Menu.Item key="1">
-                <Link href='/'>
+                    <Link href='/components/index' as='index'>
                         <a>主页</a>
                     </Link>
                 </Menu.Item>

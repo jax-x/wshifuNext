@@ -9,8 +9,11 @@ const MyContent = (props) => {
         <Content style={{ padding: '0 50px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
                 <Breadcrumb.Item>主页</Breadcrumb.Item>
-                {path.indexOf('list') !== -1 ? <Breadcrumb.Item>师傅列表</Breadcrumb.Item> : null}
-                {path.indexOf('details') !== -1 ? <Breadcrumb.Item>详情</Breadcrumb.Item> : null}
+                {/* {path.indexOf('list') !== -1 ? <Breadcrumb.Item>师傅列表</Breadcrumb.Item> : null} */}
+                {/* {path.indexOf('details') !== -1 ? <Breadcrumb.Item>详情</Breadcrumb.Item> : null} */}
+                <Breadcrumb.Item>师傅列表</Breadcrumb.Item>
+                <Breadcrumb.Item>详情</Breadcrumb.Item>
+
             </Breadcrumb>
             <div className="site-layout-content">{props.children}</div>
             <style jsx>

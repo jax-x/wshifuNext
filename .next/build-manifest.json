@@ -24,10 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/components/details/litsDetails": [
+    "/components/index": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/components/details/litsDetails.js"
+      "static/chunks/pages/components/index.js"
     ],
     "/components/list": [
       "static/chunks/main.js",

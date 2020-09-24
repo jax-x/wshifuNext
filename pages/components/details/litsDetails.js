@@ -2,7 +2,6 @@ import { Descriptions } from 'antd';
 import MyLayout from '../homeLayout/myLayout'
 
 const ListDetails = (props) => {
-    console.log(props,'????');
     return (
         <MyLayout>
             <Descriptions title="详情信息">
